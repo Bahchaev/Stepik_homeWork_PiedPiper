@@ -1,0 +1,28 @@
+.header {
+    background-color: #007765;
+    height: 84px;
+    block-size: border-box;
+}
+
+.footer {
+    background-color: #333333;
+    height: 176px;
+}
+
+.content-container {
+    max-width: 1219px;
+    margin: auto;
+    padding-right: 55px;
+    padding-left: 55px;
+}
+
+.logo {
+    height: 45px;
+    width: 184px;
+
+}
+
+.logo img {
+    position: absolute;
+    height: 45px;
+}
