@@ -1,14 +1,24 @@
-.header {
-    background-color: #007765;
-    height: 84px;
-}
-
+/* =================== GENERAL =================== */
 .content-container {
     max-width: 1219px;
     height: 100%;
     margin: auto;
     padding-right: 55px;
     padding-left: 55px;
+    border: 1px solid white;
+
+}
+
+.is_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* =================== HEADER =================== */
+.header {
+    background-color: #007765;
+    height: 84px;
 }
 
 .header--content {
@@ -47,7 +57,50 @@
     padding-right: 0;
 }
 
+/* =================== MAIN =================== */
+/* main--head */
+.main--head_image {
+    background-image: url("Pictures/headerImage.png");
+    height: 403px;
 
+}
+
+.main--head_text {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    color: #FFFFFF;
+}
+
+/* main--head */
+.article {
+    background: #EEEEEE;
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+
+.article--header {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+
+}
+
+.article--text {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+
+/* =================== FOOTER =================== */
 .footer {
     background-color: #333333;
     height: 176px;
