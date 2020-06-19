@@ -6,7 +6,6 @@
     padding-right: 55px;
     padding-left: 55px;
     border: 1px solid white;
-
 }
 
 .is_flex {
@@ -61,8 +60,8 @@
 /* main--head */
 .main--head_image {
     background-image: url("Pictures/headerImage.png");
+    background-size: 100%;
     height: 403px;
-
 }
 
 .main--head_text {
@@ -73,8 +72,8 @@
     color: #FFFFFF;
 }
 
-/* main--head */
-.article {
+/* article_text */
+.article_text {
     background: #EEEEEE;
     padding-top: 48px;
     padding-bottom: 92px;
@@ -98,6 +97,30 @@
     font-size: 32px;
     line-height: 37px;
     color: #000000;
+}
+
+/* article_img */
+.article_img {
+    background: url("Pictures/articleImage.png");
+    height: 483px;
+    padding: 0;
+}
+
+.article_img_text {
+    font-family: Roboto, serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 893px;
+}
+
+/* PPCLogo */
+.PPCLogo {
+    float: left;
+    margin-right: 48px;
 }
 
 /* =================== FOOTER =================== */
