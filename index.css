@@ -5,13 +5,17 @@
     margin: auto;
     padding-right: 55px;
     padding-left: 55px;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
 }
 
 .is_flex {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.body {
+    margin: 0;
 }
 
 /* =================== HEADER =================== */
@@ -73,7 +77,7 @@
 }
 
 /* article_text */
-.article_text {
+.article {
     background: #EEEEEE;
     padding-top: 48px;
     padding-bottom: 92px;
@@ -87,16 +91,17 @@
     line-height: 75px;
     text-align: center;
     color: #007765;
-
+    margin: 0 0 16px 0;
 }
 
-.article--text {
+.article_text--text_content {
     font-family: Roboto, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
     line-height: 37px;
     color: #000000;
+    margin: 0;
 }
 
 /* article_img */
@@ -106,7 +111,7 @@
     padding: 0;
 }
 
-.article_img_text {
+.article_img--text {
     font-family: Roboto, serif;
     font-style: italic;
     font-weight: 500;
@@ -117,14 +122,74 @@
     max-width: 893px;
 }
 
+.article_pied_piper_coin {
+    background: #FFFFFF;
+}
+
 /* PPCLogo */
 .PPCLogo {
     float: left;
     margin-right: 48px;
 }
 
+/* team_member */
+.team_member--container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team_member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin-bottom: 82px;
+}
+
+.team_member--photo {
+    width: 168px;
+    height: 168px;
+    padding: 0;
+    margin: 0 0 12px 0;
+}
+
+.team_member--name {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+    margin: 0;
+}
+
+.team_member--position {
+    font-family: Roboto, serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin: 0;
+}
+
+
+
+
 /* =================== FOOTER =================== */
 .footer {
     background-color: #333333;
     height: 176px;
+}
+
+.footer--text_content {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+
+    max-width: 540px;
 }
